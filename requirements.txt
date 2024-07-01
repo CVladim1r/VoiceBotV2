@@ -2,3 +2,4 @@ telebot
 whisper
 pyttsx3
 deep-translator
+speech_recognition
