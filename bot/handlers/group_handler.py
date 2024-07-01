@@ -10,7 +10,11 @@ def handle_group_voice_message(bot, message):
     
     try:
         translated_text = translate_text(voice_file_path, 'en')
-        bot.reply_to(message, f'{translated_text}')
+        
+        if message.reply_to_message:
+            bot.reply_to(message.reply_to_message, f'{translated_text}')
+        else:
+            bot.reply_to(message, f'{translated_text}')
     
     except Exception as e:
         print(f"Error translating voice message: {e}")
