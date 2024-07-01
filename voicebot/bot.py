@@ -5,9 +5,8 @@ import threading
 import logging
 import pyttsx3
 
-from handlers import start_handler, voice_handler, transcript_handler, translation_handler, synthesis_handler, inline_handler, group_handler
-
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+from handlers import *
+TOKEN = "6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8"
 bot = telebot.TeleBot(TOKEN)
 
 # Настройка логирования
