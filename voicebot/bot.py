@@ -5,7 +5,7 @@ import threading
 import logging
 import pyttsx3
 
-from handlers import *
+from .handlers import *
 TOKEN = "6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8"
 bot = telebot.TeleBot(TOKEN)
 
