@@ -1,0 +1,4 @@
+telebot
+whisper
+pyttsx3
+deep-translator
