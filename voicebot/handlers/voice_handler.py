@@ -1,4 +1,4 @@
-from utils.audio_processing import save_audio
+from ..utils.audio_processing import save_audio
 
 def process_voice(bot, message, user_status):
     file_info = bot.get_file(message.voice.file_id)

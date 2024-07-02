@@ -1,5 +1,5 @@
 from telebot import types
-from utils.translator import translate_text
+from ..utils.translator import translate_text
 
 def process_translation(bot, message, user_status):
     user_data = user_status[message.chat.id]

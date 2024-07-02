@@ -1,0 +1,92 @@
+2024-07-02 02:58:30,698 DEBUG:CoInitializeEx(None, 2)
+2024-07-02 02:58:30,720 INFO:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Vladimir_laptop\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-07-02 02:58:30,720 INFO:Using writeable comtypes cache directory: 'C:\Users\Vladimir_laptop\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+2024-07-02 02:58:30,755 DEBUG:SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2024-07-02 02:58:30,755 DEBUG:CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2024-07-02 02:58:30,762 DEBUG:GetBestInterface(<POINTER(IUnknown) ptr=0x1b4eb2ab780 at 1b49cf1f3d0>)
+2024-07-02 02:58:30,762 DEBUG:Does implement IProvideClassInfo
+2024-07-02 02:58:30,763 DEBUG:Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2024-07-02 02:58:30,763 DEBUG:Release <POINTER(IUnknown) ptr=0x1b4eb2ab7c0 at 1b49cf1f950>
+2024-07-02 02:58:30,763 DEBUG:GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-07-02 02:58:30,764 DEBUG:Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2024-07-02 02:58:30,764 DEBUG:Final result is <POINTER(ISpeechVoice) ptr=0x1b4eb2ab7c0 at 1b49cf1f850>
+2024-07-02 02:58:30,764 DEBUG:Release <POINTER(IProvideClassInfo) ptr=0x1b4eb2ab7e0 at 1b49cf1f450>
+2024-07-02 02:58:30,764 DEBUG:Release <POINTER(ITypeInfo) ptr=0x1b49b490bc8 at 1b49cf1f5d0>
+2024-07-02 02:58:30,764 DEBUG:Release <POINTER(ITypeInfo) ptr=0x1b49b490c20 at 1b49cf1f650>
+2024-07-02 02:58:30,764 DEBUG:Release <POINTER(ITypeLib) ptr=0x1b49ac48b10 at 1b49cf1f950>
+2024-07-02 02:58:30,764 DEBUG:Release <POINTER(IUnknown) ptr=0x1b4eb2ab780 at 1b49cf1f3d0>
+2024-07-02 02:58:30,764 DEBUG:<POINTER(ISpeechVoice) ptr=0x1b4eb2ab7c0 at 1b49cf1f850> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-07-02 02:58:30,764 DEBUG:Release <POINTER(IProvideClassInfo2) ptr=0x1b4eb2ab7e0 at 1b49cf1f3d0>
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.VoiceChange not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.Bookmark not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.Word not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.Sentence not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.Phoneme not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.Viseme not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.AudioLevel not implemented
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2024-07-02 02:58:30,765 DEBUG:Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2024-07-02 02:58:30,765 DEBUG:1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>
+2024-07-02 02:58:30,765 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>.AddRef() -> 1
+2024-07-02 02:58:30,766 DEBUG:Release <POINTER(IConnectionPointContainer) ptr=0x1b4eb2ab7e8 at 1b49cf6cdd0>
+2024-07-02 02:58:30,807 DEBUG:wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x1b4eb2ac550 at 1b49cf6cdd0>)
+2024-07-02 02:58:30,808 DEBUG:Release <POINTER(ISpeechObjectToken) ptr=0x1b4eb2ac550 at 1b49cf6cdd0>
+2024-07-02 02:58:30,808 DEBUG:wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x1b49ed41990 at 1b49cf6cdd0>)
+2024-07-02 02:58:30,808 DEBUG:Release <POINTER(IUnknown) ptr=0x1b4a00064f0 at 1b49cf6cf50>
+2024-07-02 02:58:30,808 DEBUG:wrap_outparam(<POINTER(IDispatch) ptr=0x1b49ed900d0 at 1b49cf6cfd0>)
+2024-07-02 02:58:30,808 DEBUG:GetBestInterface(<POINTER(IDispatch) ptr=0x1b49ed900d0 at 1b49cf6cfd0>)
+2024-07-02 02:58:30,808 DEBUG:Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2024-07-02 02:58:30,808 DEBUG:Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(IUnknown) ptr=0x1b49b490cd0 at 1b49cf6d350>
+2024-07-02 02:58:30,809 DEBUG:Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(IUnknown) ptr=0x1b49ed900d0 at 1b49cf6d3d0>
+2024-07-02 02:58:30,809 DEBUG:GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-07-02 02:58:30,809 DEBUG:Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2024-07-02 02:58:30,809 DEBUG:Final result is <POINTER(ISpeechObjectToken) ptr=0x1b49ed900d0 at 1b49cf6d450>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(IDispatch) ptr=0x1b49ed900d0 at 1b49cf6d2d0>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(ITypeInfo) ptr=0x1b49b490cd0 at 1b49cf6d1d0>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(ITypeLib) ptr=0x1b49ac48b10 at 1b49cf6d3d0>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(IDispatch) ptr=0x1b49ed900d0 at 1b49cf6cfd0>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(IEnumVARIANT) ptr=0x1b4a00064f0 at 1b49cf6ced0>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(ISpeechObjectTokens) ptr=0x1b49ed41990 at 1b49cf6cdd0>
+2024-07-02 02:58:30,809 DEBUG:Release <POINTER(ISpeechObjectToken) ptr=0x1b49ed900d0 at 1b49cf6d450>
+2024-07-02 02:58:30,813 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:58:31,157 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getMe HTTP/1.1" 200 317
+2024-07-02 02:58:31,160 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:58:35,835 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 593
+2024-07-02 02:58:35,837 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:58:36,193 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getFile?file_id=AwACAgIAAx0CcgK8gAACIohmg0KdYxOUSmOUy7p8aXAhz_sJqQACc0wAAmLpGEh_wLaSH-2u3zUE HTTP/1.1" 200 195
+2024-07-02 02:58:36,316 DEBUG:https://api.telegram.org:443 "GET /file/bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/voice/file_5.oga HTTP/1.1" 200 47583
+2024-07-02 02:58:43,477 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592060&timeout=20 HTTP/1.1" 200 1164
+2024-07-02 02:58:43,482 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:58:43,802 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getFile?file_id=AwACAgIAAxkBAAIGCGaDQqU1Pja3cCUFU8yuBmbCCrivAAJzTAACYukYSH_AtpIf7a7fNQQ HTTP/1.1" 200 190
+2024-07-02 02:58:43,899 DEBUG:https://api.telegram.org:443 "GET /file/bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/voice/file_5.oga HTTP/1.1" 200 47583
+2024-07-02 02:58:53,777 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592061&timeout=20 HTTP/1.1" 200 667
+2024-07-02 02:58:53,779 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:58:54,169 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getFile?file_id=AwACAgIAAxkBAAIGCWaDQq9DayM7tRcIF_4PgbTVSdnYAAL8WAACQWsZSJV6z6ct6Vs-NQQ HTTP/1.1" 200 191
+2024-07-02 02:58:54,261 DEBUG:https://api.telegram.org:443 "GET /file/bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/voice/file_6.oga HTTP/1.1" 200 105263
+2024-07-02 02:59:13,846 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592062&timeout=20 HTTP/1.1" 200 23
+2024-07-02 02:59:33,907 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592062&timeout=20 HTTP/1.1" 200 23
+2024-07-02 02:59:37,559 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592062&timeout=20 HTTP/1.1" 200 923
+2024-07-02 02:59:37,562 INFO:Начало загрузки модели Whisper.
+2024-07-02 02:59:39,805 INFO:Модель Whisper загружена успешно.
+2024-07-02 02:59:39,805 ERROR:Ошибка при обработке транскрипции: name 'file_info' is not defined
+2024-07-02 02:59:39,806 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:59:40,219 DEBUG:https://api.telegram.org:443 "POST /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/sendMessage?chat_id=-1001912781952&text=%D0%9F%D1%80%D0%BE%D0%B8%D0%B7%D0%BE%D1%88%D0%BB%D0%B0+%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0+%D0%BF%D1%80%D0%B8+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5+%D0%B2%D0%B0%D1%88%D0%B5%D0%B3%D0%BE+%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F.+%D0%9F%D0%BE%D0%BF%D1%80%D0%BE%D0%B1%D1%83%D0%B9%D1%82%D0%B5+%D0%B5%D1%89%D0%B5+%D1%80%D0%B0%D0%B7. HTTP/1.1" 200 774
+2024-07-02 02:59:42,659 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592063&timeout=20 HTTP/1.1" 200 423
+2024-07-02 02:59:42,661 INFO:Начало загрузки модели Whisper.
+2024-07-02 02:59:44,446 INFO:Модель Whisper загружена успешно.
+2024-07-02 02:59:44,446 ERROR:Ошибка при обработке транскрипции: name 'file_info' is not defined
+2024-07-02 02:59:44,447 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 02:59:44,835 DEBUG:https://api.telegram.org:443 "POST /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/sendMessage?chat_id=-1001912781952&text=%D0%9F%D1%80%D0%BE%D0%B8%D0%B7%D0%BE%D1%88%D0%BB%D0%B0+%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0+%D0%BF%D1%80%D0%B8+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5+%D0%B2%D0%B0%D1%88%D0%B5%D0%B3%D0%BE+%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F.+%D0%9F%D0%BE%D0%BF%D1%80%D0%BE%D0%B1%D1%83%D0%B9%D1%82%D0%B5+%D0%B5%D1%89%D0%B5+%D1%80%D0%B0%D0%B7. HTTP/1.1" 200 774
+2024-07-02 03:00:02,726 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592064&timeout=20 HTTP/1.1" 200 23
+2024-07-02 03:00:14,767 INFO:Запуск бота.
+2024-07-02 03:00:14,768 INFO:Бот работает...
+2024-07-02 03:00:14,771 DEBUG:Starting new HTTPS connection (1): api.telegram.org:443
+2024-07-02 03:00:15,112 DEBUG:https://api.telegram.org:443 "GET /bot6829050152:AAFt626_eNebID9Cw2KOX5RZrjl1CQ0XqP8/getUpdates?offset=519592064&timeout=20 HTTP/1.1" 409 143
+2024-07-02 03:00:17,773 DEBUG:Calling CoUninitialize()
+2024-07-02 03:00:17,773 DEBUG:CoUninitialize() done.
+2024-07-02 03:00:17,855 DEBUG:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>.Release() -> 0
+2024-07-02 03:00:17,855 DEBUG:0 active COM objects: Removed <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001B49CCA07D0>
+2024-07-02 03:00:17,855 DEBUG:Remaining: []

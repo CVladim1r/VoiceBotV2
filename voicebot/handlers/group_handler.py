@@ -1,5 +1,5 @@
-from utils.audio_processing import save_audio, delete_audio
-from utils.translator import translate_text
+from ..utils.audio_processing import save_audio, delete_audio
+from ..utils.translator import translate_text
 
 def handle_group_voice_message(bot, message):
     file_info = bot.get_file(message.voice.file_id)

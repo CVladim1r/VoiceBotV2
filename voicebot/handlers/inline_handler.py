@@ -1,6 +1,6 @@
 from telebot import types
-from utils.audio_processing import save_audio, delete_audio
-from utils.translator import translate_text
+from ..utils.audio_processing import save_audio, delete_audio
+from ..utils.translator import translate_text
 
 def handle_inline_query(bot, query):
     results = []

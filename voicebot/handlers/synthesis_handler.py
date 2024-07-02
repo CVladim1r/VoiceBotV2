@@ -1,5 +1,5 @@
 from telebot import types
-from utils.synthesizer import synthesize_text, delete_synthesized_audio
+from ..utils.synthesizer import synthesize_text, delete_synthesized_audio
 
 def process_synthesize(bot, message, user_status, synthesizer):
     markup_actions = types.ReplyKeyboardRemove()
